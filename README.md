@@ -67,13 +67,22 @@ Noticebly in sentinel only information we can recieve is information on the even
 
 
 
+# Attack Map Creation and Finalization. 
+
+Using a query I was able to get online, i'm able to copy the setting's as shown in the screenshot below. 
+
+<img width="1879" height="852" alt="image" src="https://github.com/user-attachments/assets/a3f8e754-88cb-4984-9d0e-58b466613289" />
 
 
+Above is how our map looks after 7 hours of being open on the network. 
 
+We only got hits from Poland and Netherlands. 
 
+Stats
 
+Poland: 758 events
 
-
+Netherlands: 1.38k Events 
 
 
 
