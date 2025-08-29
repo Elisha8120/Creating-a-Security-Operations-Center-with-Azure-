@@ -55,3 +55,36 @@ Once we have done to steps in order we are able to see the end result in the pho
 
 
 <img width="1589" height="865" alt="Screenshot 2025-08-29 141924" src="https://github.com/user-attachments/assets/49b4642a-ae8e-48ec-aca9-24c2da6b71bb" />
+
+
+
+
+# Adding info to  Watchlist in Sentinel 
+
+Noticebly in sentinel only information we can recieve is information on the events, time, accounts, etc. To have a fully set up Security Operation center we are missing information about our events/attackers location. So what I did was get a list of ipaddresses corresponding to their locations and apply it to sentinels watchlist to be able to have a fully functioning visable map. This takes the place of the real life scenerio where the location data would be coming from a live source or automatically.
+
+<img width="1561" height="743" alt="image" src="https://github.com/user-attachments/assets/4831f746-93a2-4347-b603-6b7d0607363d" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
