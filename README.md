@@ -1,5 +1,5 @@
 # Creating-a-Security-Operations-Center-with-Azure-
-I will be demonstrating how to create an at home Security Operations Center, and using a "Honey Pot" VM open on the network as bait to catch real live traffic.  
+I will be demonstrating how to create an at home Security Operations Center, and using a "Honey Pot" VM open on the network as bait to catch real live traffic imitating the real life experience of capturing traffic from the network to my Virtual Machine. 
 
 
 
