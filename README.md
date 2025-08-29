@@ -22,10 +22,19 @@ First created the resource group so that when we create the Virtual machine and 
 <img width="1881" height="684" alt="image" src="https://github.com/user-attachments/assets/41dc8a68-55a1-4569-9998-346df355f842" />
 
 
-# Adding our Log repositry to our virtual Cloud System. 
+# Creating and Connecting the Log Repository, Microsoft Sentinel, and the Virtual Machine 
 
-To create the Log repository in Azure we search for "Log Analytics Workspace" and that's what we will link to our Microsoft Sentinel (SIEM) to be able to view our information on our virtual Machine. 
+I first created the log analytics workspace(LAW), then I bought the Microsoft Sentinel (SIEM) subscription, which I linked my log analytics workspace to. 
 
+
+<img width="1898" height="396" alt="image" src="https://github.com/user-attachments/assets/bf474831-79f5-4b1a-827d-2c1f64491f5c" />
+
+
+<img width="1731" height="520" alt="image" src="https://github.com/user-attachments/assets/094d7d72-6c83-4353-b287-68539c8fab9d" />
+
+
+
+I then installed "Windows Security Events via AMA" the necessary extension that would allow me to recieve the logs from my virtual machine. 
 
 
 <img width="587" height="497" alt="Screenshot 2025-08-29 122139" src="https://github.com/user-attachments/assets/ae1cf762-5167-491c-b7be-539c5549ad1e" />
@@ -37,11 +46,12 @@ To create the Log repository in Azure we search for "Log Analytics Workspace" an
 
 
 
+Once created SIEM with the appropiate data collection rules, we then need to link our Log Repository to our SIEM
 
 
-Once we have created our Log Analytics Workspace and linked it to our SIEM, we then need to link our Log Repository to our SIEM.
+
 Breakdown: Create log anaylytics workspace, apply the SIEM (in this case Microsoft Sentinel) and then add our virtual machine to our log repository to be able to overview the logs. 
-Once we have done to steps in order we are able to see the end result in the photo below where we are able to have access our event logs. 
+Once we have done to steps in order we are able to see the end result in the photo below where we are able to have access our event logs in Microsoft Sentinel. 
 
 
 <img width="1589" height="865" alt="Screenshot 2025-08-29 141924" src="https://github.com/user-attachments/assets/49b4642a-ae8e-48ec-aca9-24c2da6b71bb" />
